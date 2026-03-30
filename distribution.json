@@ -1,0 +1,4094 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "1377349949351788706",
+    "smallImageText": "플로라밸",
+    "smallImageKey": "floraval_logo"
+  },
+  "servers": [
+    {
+      "id": "Floraval-1.21.8",
+      "name": "Floraval (Minecraft 1.21.8)",
+      "description": "Minecraft 1.21.8 (Fabric v0.18.4)",
+      "icon": "https://github.com/mchdistro/Floraval/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "222.236.94.107:25565",
+      "minecraftVersion": "1.21.8",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.8-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "6a76fd733df915f3ab04b526b33af63a",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/versions/1.21.8-fabric-0.18.4/1.21.8-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.8",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 746437,
+                "MD5": "72c38e6c7d436b28b88f9a3a2369619d",
+                "url": "https://github.com/mchdistro/Floraval/raw/main/repo/lib/net/fabricmc/intermediary/1.21.8/intermediary-1.21.8.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.foundationgames:animatica:0.6.1+1.21.5@jar",
+          "name": "Animatica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 70838,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/animatica-0.6.1+1.21.5.jar",
+            "MD5": "1e3bf1a8841f5ca84a88325b68e5cee8"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:19.0.147@jar",
+          "name": "Cloth Config v19",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1149126,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/cloth-config-19.0.147-fabric.jar",
+            "MD5": "374787e705220edb15af113964ce96d2"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.1-beta.1+1.21.6@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 994756,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/continuity-3.0.1-beta.1+1.21.6.jar",
+            "MD5": "57884176e646e10756b43b6ff0bdd4d9"
+          }
+        },
+        {
+          "id": "generated.fabricmod:cubes-without-borders:3.0.0+mc1.21.5@jar",
+          "name": "Cubes Without Borders",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81623,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/cwb-fabric-3.0.0+mc1.21.5.jar",
+            "MD5": "d29e2d0d27179c62638f2b79e857ba14"
+          }
+        },
+        {
+          "id": "dev.isxander:debugify:1.21.8+1.0@jar",
+          "name": "Debugify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009710,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/debugify-1.21.8+1.0.jar",
+            "MD5": "ca4360f1b1526ff6578fe957735a95b3"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.6@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 192532,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/dynamic-fps-3.9.6+minecraft-1.21.6-fabric.jar",
+            "MD5": "edb836b0b4a9f3df285a580d81a61a5e"
+          }
+        },
+        {
+          "id": "link.e4mc:e4mc_minecraft:5.4.1@jar",
+          "name": "E4mc",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 583322,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/e4mc_minecraft-fabric-5.4.1.jar",
+            "MD5": "38d226121508ecec93d24e806e546d60"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.3@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 472781,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/entityculling-fabric-1.9.3-mc1.21.8.jar",
+            "MD5": "35b9124d6754f6feabb790bbd1169cc1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.136.0+1.21.8@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2264741,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/fabric-api-0.136.0+1.21.8.jar",
+            "MD5": "69df9a1ce900a8e1fd155e435069ee2c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.7+kotlin.2.2.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7479608,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+            "MD5": "89a977d6a4d7a84b8390f9143dd689f7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:8.0.0@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79653,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/ferritecore-8.0.0-fabric.jar",
+            "MD5": "f3edb2e06fd77f283a0f0f734e37bf13"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.8.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 635376,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/ForgeConfigAPIPort-v21.8.1-1.21.8-Fabric.jar",
+            "MD5": "f6333af5f2ee8b99b7192ea1a893076a"
+          }
+        },
+        {
+          "id": "kr.cosine.simplef3:hqsimplef3:1.0.0@jar",
+          "name": "HQSimpleF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 70394,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/HQSimpleF3-1.0.0.jar",
+            "MD5": "2b1eab5eb103f541b5cd2ba251ba9136"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.12.2+1.21.8@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 193954,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/ImmediatelyFast-Fabric-1.12.2+1.21.8.jar",
+            "MD5": "5a842121f13548a841697f1180dfa8b5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.9.6+mc1.21.8@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2742813,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/iris-fabric-1.9.6+mc1.21.8.jar",
+            "MD5": "64fdd8ffe47175923a1cfb6b0617867d"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.8-6.0.0-beta.52@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3604336,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/journeymap-fabric-1.21.8-6.0.0-beta.52.jar",
+            "MD5": "02b8db23b0af3f75cb207213064dfe7d"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21.6@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 612259,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.21.6.jar",
+            "MD5": "0c102e527e939f4be2298adf5e939992"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lambdynlights:4.8.6+1.21.8@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2100408,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/lambdynamiclights-4.8.6+1.21.8.jar",
+            "MD5": "766071a0d8061b1326ed2b2d01be0c44"
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.4+1.21.6@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75005,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/language-reload-1.7.4+1.21.6.jar",
+            "MD5": "4a2f3ff0e9083072f7ed74b780faf174"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.18.1+mc1.21.8@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 839866,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/lithium-fabric-0.18.1+mc1.21.8.jar",
+            "MD5": "7852499e964ca766501bd2c6f5a14f22"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mixintrace:1.1.1+1.17@jar",
+          "name": "MixinTrace",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36039,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/mixintrace-1.1.1+1.17.jar",
+            "MD5": "25673336ece740d8127ae7525bc0cd4f"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:modelfix:1.21.5-1.12@jar",
+          "name": "Model Gap Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66419,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/modelfix-1.21.5-1.12-fabric.jar",
+            "MD5": "378424851f639ebca1d45e87eba0223d"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:15.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1083202,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/modmenu-15.0.0.jar",
+            "MD5": "f8a86f5d8faf85c41150481d816b4adf"
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechathistory:1.3.1@jar",
+          "name": "More Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3573,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/morechathistory-1.3.1.jar",
+            "MD5": "cd040faa8025103baf571a3ce15d4a8a"
+          }
+        },
+        {
+          "id": "ca.fxco:moreculling:1.4.0-beta.2@jar",
+          "name": "More Culling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 347182,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/moreculling-fabric-1.21.8-1.4.0-beta.2.jar",
+            "MD5": "87f9710fa1b16968eeb834451400af9e"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.21.8-v2.15.0@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 249165,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/NoChatReports-FABRIC-1.21.8-v2.15.0.jar",
+            "MD5": "7e4a6fe6a6a0c30934c543d400a0a0ff"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.11.2+1.21.7@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5701657,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/PresenceFootsteps-1.11.2+1.21.7.jar",
+            "MD5": "1915d6aa766c5f64d069f143bdc5eef0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.4+mc1.21.6@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81061,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/reeses-sodium-options-fabric-1.8.4+mc1.21.6.jar",
+            "MD5": "6256d2626c3a7252c681bdd7c992db46"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.7.0+mc1.21.8@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 420199,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/sodium-extra-fabric-0.7.0+mc1.21.8.jar",
+            "MD5": "b5ac5b552279a9adb2d99cbfe7d1edef"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.7.3+mc1.21.8@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1621285,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/sodium-fabric-0.7.3+mc1.21.8.jar",
+            "MD5": "2e38db8afdf3a8d319658780b7f45501"
+          }
+        },
+        {
+          "id": "kr.shihyeon:tabnametag:0.1.0+mc1.21.2@jar",
+          "name": "TabNameTag",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11004,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/tabnametag-fabric-0.1.0+mc1.21.2.jar",
+            "MD5": "ccd2d08433133ca66ca082dd459a003e"
+          }
+        },
+        {
+          "id": "me.zipestudio.talkingheads.entrypoint:talkingheads:1.1.0+1.21.8+fabric@jar",
+          "name": "Talking Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 287493,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/TalkingHeads-1.1.0+1.21.8+fabric.jar",
+            "MD5": "2f6e18a52958d583c4729531ec5453cc"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.8-2.6.12@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5463186,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/voicechat-fabric-1.21.8-2.6.12.jar",
+            "MD5": "0278ecc65e323f4f571fc5c872b20ded"
+          }
+        },
+        {
+          "id": "generated.fabricmod:volumescroll:0.0.2+1.21.4@jar",
+          "name": "VolumeScroll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11191,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/volumescroll-0.0.2+1.21.4.jar",
+            "MD5": "79dfb31eeccf049f84b641356fb5e198"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.7.1+1.21.6-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1122817,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/yet_another_config_lib_v3-3.7.1+1.21.6-fabric.jar",
+            "MD5": "c69036880ff3184c5ba37d58c75d86aa"
+          }
+        },
+        {
+          "id": "generated.fabricmod:yosbr:0.1.2@jar",
+          "name": "YOSBR",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17373,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/yosbr-0.1.2.jar",
+            "MD5": "9fcce225f25b6fd17921c87ff1c720f1"
+          }
+        },
+        {
+          "id": "dev.isxander:zoomify:2.14.6+1.21.6@jar",
+          "name": "Zoomify",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1865830,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/Zoomify-2.14.6+1.21.6.jar",
+            "MD5": "f3df93a98949c77ac55824fb20c7e799"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 312,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/iris.properties",
+            "MD5": "f2005a3aeddd4db6196fd8e2f46672d4",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "bettergrass.json",
+          "name": "bettergrass.json",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/bettergrass.json",
+            "MD5": "af358831aaa5edc3cd1cd0277cc01172",
+            "path": "config/yosbr/config/bettergrass.json"
+          }
+        },
+        {
+          "id": "capes.json5",
+          "name": "capes.json5",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/capes.json5",
+            "MD5": "af9a9ed7329d643308ce0b21b7bce3ae",
+            "path": "config/yosbr/config/capes.json5"
+          }
+        },
+        {
+          "id": "citresewn.json",
+          "name": "citresewn.json",
+          "type": "File",
+          "artifact": {
+            "size": 22,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/citresewn.json",
+            "MD5": "dda0ba4f22cfad7e248623fecdba5fa5",
+            "path": "config/yosbr/config/citresewn.json"
+          }
+        },
+        {
+          "id": "debugify.json",
+          "name": "debugify.json",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/debugify.json",
+            "MD5": "8fe473c407458fe08c7c49f996a79e5a",
+            "path": "config/yosbr/config/debugify.json"
+          }
+        },
+        {
+          "id": "dynamic_fps.json",
+          "name": "dynamic_fps.json",
+          "type": "File",
+          "artifact": {
+            "size": 253,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/dynamic_fps.json",
+            "MD5": "c5a731bfcb5da338fc5610a4906b415a",
+            "path": "config/yosbr/config/dynamic_fps.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/entity_texture_features.json",
+            "MD5": "a628c3d6d1d55b0ae20128eab60ffea0",
+            "path": "config/yosbr/config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "fabrishot.properties",
+          "name": "fabrishot.properties",
+          "type": "File",
+          "artifact": {
+            "size": 167,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/fabrishot.properties",
+            "MD5": "be42f1be4f113eea9d1c2f4cc5cf309c",
+            "path": "config/yosbr/config/fabrishot.properties"
+          }
+        },
+        {
+          "id": "fastquit.toml",
+          "name": "fastquit.toml",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/fastquit.toml",
+            "MD5": "2d8bc43d918888947c3c9a4fbccc5c47",
+            "path": "config/yosbr/config/fastquit.toml"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 73,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/iris.properties",
+            "MD5": "e9f646bca48bee15f27cb25cda3915d9",
+            "path": "config/yosbr/config/iris.properties"
+          }
+        },
+        {
+          "id": "isxander-main-menu-credits.json",
+          "name": "isxander-main-menu-credits.json",
+          "type": "File",
+          "artifact": {
+            "size": 187,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/isxander-main-menu-credits.json",
+            "MD5": "31f76eaf9d90e6235b7a88f3418a550a",
+            "path": "config/yosbr/config/isxander-main-menu-credits.json"
+          }
+        },
+        {
+          "id": "lambdynlights.toml",
+          "name": "lambdynlights.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/lambdynlights.toml",
+            "MD5": "57784a01dfdce14286682c8152f6e852",
+            "path": "config/yosbr/config/lambdynlights.toml"
+          }
+        },
+        {
+          "id": "midnightlib.json",
+          "name": "midnightlib.json",
+          "type": "File",
+          "artifact": {
+            "size": 30,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/midnightlib.json",
+            "MD5": "faf5b671cdefd24677633d1bf81130b9",
+            "path": "config/yosbr/config/midnightlib.json"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/modernfix-mixins.properties",
+            "MD5": "d9db3848b14f755172216fe45b2428a7",
+            "path": "config/yosbr/config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 1045,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/modmenu.json",
+            "MD5": "e8fb2909e989fcbf4509ecd1e50f84a7",
+            "path": "config/yosbr/config/modmenu.json"
+          }
+        },
+        {
+          "id": "moreculling.toml",
+          "name": "moreculling.toml",
+          "type": "File",
+          "artifact": {
+            "size": 553,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/moreculling.toml",
+            "MD5": "48b79a9e43db43ae2b104e4f3f6b9628",
+            "path": "config/yosbr/config/moreculling.toml"
+          }
+        },
+        {
+          "id": "NCR-Client.json",
+          "name": "NCR-Client.json",
+          "type": "File",
+          "artifact": {
+            "size": 477,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/NoChatReports/NCR-Client.json",
+            "MD5": "dc1ee41c88354527a8eb52b8cce2d97f",
+            "path": "config/yosbr/config/NoChatReports/NCR-Client.json"
+          }
+        },
+        {
+          "id": "NCR-Common.json",
+          "name": "NCR-Common.json",
+          "type": "File",
+          "artifact": {
+            "size": 96,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/NoChatReports/NCR-Common.json",
+            "MD5": "636e111bd55a154df9a867280b897615",
+            "path": "config/yosbr/config/NoChatReports/NCR-Common.json"
+          }
+        },
+        {
+          "id": "PaginatedAdvancements.json5",
+          "name": "PaginatedAdvancements.json5",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/PaginatedAdvancements.json5",
+            "MD5": "f564d6f25f4508c096c5a4cf5901c817",
+            "path": "config/yosbr/config/PaginatedAdvancements.json5"
+          }
+        },
+        {
+          "id": "puzzle.json",
+          "name": "puzzle.json",
+          "type": "File",
+          "artifact": {
+            "size": 217,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/puzzle.json",
+            "MD5": "eafd77b0541cab626a49de779c2c3414",
+            "path": "config/yosbr/config/puzzle.json"
+          }
+        },
+        {
+          "id": "rrls.toml",
+          "name": "rrls.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1000,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/rrls.toml",
+            "MD5": "d5fc0b0d90ed9ea83a7715097fab44e3",
+            "path": "config/yosbr/config/rrls.toml"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 38,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/sodium-options.json",
+            "MD5": "e4198d8d02b7b781868c2b2a5c363669",
+            "path": "config/yosbr/config/sodium-options.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1002,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/options.txt",
+            "MD5": "634df3e36d5f88f618700a5da9238624",
+            "path": "config/yosbr/options.txt"
+          }
+        },
+        {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 2687,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.core.config",
+            "path": "journeymap/config/6.0/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1303,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.fullmap.config",
+            "path": "journeymap/config/6.0/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 2298,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.minimap.config",
+            "path": "journeymap/config/6.0/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 2317,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.minimap2.config",
+            "path": "journeymap/config/6.0/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.rendering.config",
+          "name": "journeymap.rendering.config",
+          "type": "File",
+          "artifact": {
+            "size": 671,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.rendering.config",
+            "path": "journeymap/config/6.0/journeymap.rendering.config"
+          }
+        },
+        {
+          "id": "journeymap.topo.config",
+          "name": "journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 971,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.topo.config",
+            "path": "journeymap/config/6.0/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint.config",
+          "name": "journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 1304,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.waypoint.config",
+            "path": "journeymap/config/6.0/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap.config",
+          "name": "journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.webmap.config",
+            "path": "journeymap/config/6.0/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "default.theme.config",
+          "name": "default.theme.config",
+          "type": "File",
+          "artifact": {
+            "size": 69,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/default.theme.config",
+            "path": "journeymap/icon/theme/default.theme.config"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_button_disabled.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_button_hover.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_button_off.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_button_on.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_toggle_hover.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_toggle_off.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/control/flat_toggle_on.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "DesertTemple.theme2.json",
+          "name": "DesertTemple.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8925,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
+            "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
+          }
+        },
+        {
+          "id": "EndCity.theme2.json",
+          "name": "EndCity.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8920,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/EndCity.theme2.json",
+            "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
+          }
+        },
+        {
+          "id": "ForestMansion.theme2.json",
+          "name": "ForestMansion.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
+            "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/about.png",
+            "path": "journeymap/icon/theme/flat/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1371,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/actions.png",
+            "path": "journeymap/icon/theme/flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 1101,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/alert.png",
+            "path": "journeymap/icon/theme/flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 834,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/animals.png",
+            "path": "journeymap/icon/theme/flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 591,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/automap.png",
+            "path": "journeymap/icon/theme/flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/biome.png",
+            "path": "journeymap/icon/theme/flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/browser.png",
+            "path": "journeymap/icon/theme/flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 1081,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/caves.png",
+            "path": "journeymap/icon/theme/flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1373,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/close.png",
+            "path": "journeymap/icon/theme/flat/icon/close.png"
+          }
+        },
+        {
+          "id": "colorpalette.png",
+          "name": "colorpalette.png",
+          "type": "File",
+          "artifact": {
+            "size": 1174,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/colorpalette.png",
+            "path": "journeymap/icon/theme/flat/icon/colorpalette.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1515,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/day.png",
+            "path": "journeymap/icon/theme/flat/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/delete.png",
+            "path": "journeymap/icon/theme/flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/disable.png",
+            "path": "journeymap/icon/theme/flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1274,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/follow.png",
+            "path": "journeymap/icon/theme/flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 514,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/grid.png",
+            "path": "journeymap/icon/theme/flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/keys.png",
+            "path": "journeymap/icon/theme/flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/layers.png",
+            "path": "journeymap/icon/theme/flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/monsters.png",
+            "path": "journeymap/icon/theme/flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/night.png",
+            "path": "journeymap/icon/theme/flat/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 644,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/options.png",
+            "path": "journeymap/icon/theme/flat/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/pets.png",
+            "path": "journeymap/icon/theme/flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/players.png",
+            "path": "journeymap/icon/theme/flat/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/reset.png",
+            "path": "journeymap/icon/theme/flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/savemap.png",
+            "path": "journeymap/icon/theme/flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/search.png",
+            "path": "journeymap/icon/theme/flat/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/server.png",
+            "path": "journeymap/icon/theme/flat/icon/server.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/topo.png",
+            "path": "journeymap/icon/theme/flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/villagers.png",
+            "path": "journeymap/icon/theme/flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 1606,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/waypoints.png",
+            "path": "journeymap/icon/theme/flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1305,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/zoomin.png",
+            "path": "journeymap/icon/theme/flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1241,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/icon/zoomout.png",
+            "path": "journeymap/icon/theme/flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 589,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_mask_256.png",
+          "name": "flat_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 7020,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png"
+          }
+        },
+        {
+          "id": "flat_mask_512.png",
+          "name": "flat_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 20438,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png"
+          }
+        },
+        {
+          "id": "flat_rim_256.png",
+          "name": "flat_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 6751,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png"
+          }
+        },
+        {
+          "id": "flat_rim_512.png",
+          "name": "flat_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 14309,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 959,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_mask_256.png",
+          "name": "pur_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 2067,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png"
+          }
+        },
+        {
+          "id": "pur_mask_512.png",
+          "name": "pur_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 10622,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png"
+          }
+        },
+        {
+          "id": "pur_rim_256.png",
+          "name": "pur_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 15210,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png"
+          }
+        },
+        {
+          "id": "pur_rim_512.png",
+          "name": "pur_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 37803,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_left.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_right.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_top.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/flat_topright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "pur_bottomleft.png",
+          "name": "pur_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png"
+          }
+        },
+        {
+          "id": "pur_bottomright.png",
+          "name": "pur_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_left.png",
+          "name": "pur_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_left.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_left.png"
+          }
+        },
+        {
+          "id": "pur_right.png",
+          "name": "pur_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_right.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_right.png"
+          }
+        },
+        {
+          "id": "pur_top.png",
+          "name": "pur_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_top.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_top.png"
+          }
+        },
+        {
+          "id": "pur_topleft.png",
+          "name": "pur_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 205,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png"
+          }
+        },
+        {
+          "id": "pur_topright.png",
+          "name": "pur_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/minimap/square/pur_topright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topright.png"
+          }
+        },
+        {
+          "id": "NetherFortress.theme2.json",
+          "name": "NetherFortress.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8927,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
+            "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
+          }
+        },
+        {
+          "id": "OceanMonument.theme2.json",
+          "name": "OceanMonument.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
+            "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
+          }
+        },
+        {
+          "id": "Purist.theme2.json",
+          "name": "Purist.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8909,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/Purist.theme2.json",
+            "path": "journeymap/icon/theme/flat/Purist.theme2.json"
+          }
+        },
+        {
+          "id": "Stronghold.theme2.json",
+          "name": "Stronghold.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8923,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
+            "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 3776,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/vault/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 2668,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/vault/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 1438,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/vault/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 2583,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/vault/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 2609,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/vault/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 490,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/vault/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_button_disabled.png",
+            "path": "journeymap/icon/theme/vault/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_button_hover.png",
+            "path": "journeymap/icon/theme/vault/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_button_off.png",
+            "path": "journeymap/icon/theme/vault/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_button_on.png",
+            "path": "journeymap/icon/theme/vault/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_toggle_disabled.png",
+            "path": "journeymap/icon/theme/vault/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_toggle_hover.png",
+            "path": "journeymap/icon/theme/vault/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_toggle_off.png",
+            "path": "journeymap/icon/theme/vault/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/control/flat_toggle_on.png",
+            "path": "journeymap/icon/theme/vault/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/about.png",
+            "path": "journeymap/icon/theme/vault/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1244,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/actions.png",
+            "path": "journeymap/icon/theme/vault/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 818,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/alert.png",
+            "path": "journeymap/icon/theme/vault/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 978,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/animals.png",
+            "path": "journeymap/icon/theme/vault/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 1598,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/automap.png",
+            "path": "journeymap/icon/theme/vault/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/biome.png",
+            "path": "journeymap/icon/theme/vault/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/browser.png",
+            "path": "journeymap/icon/theme/vault/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/caves.png",
+            "path": "journeymap/icon/theme/vault/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1021,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/close.png",
+            "path": "journeymap/icon/theme/vault/icon/close.png"
+          }
+        },
+        {
+          "id": "colorpalette.png",
+          "name": "colorpalette.png",
+          "type": "File",
+          "artifact": {
+            "size": 1174,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/colorpalette.png",
+            "path": "journeymap/icon/theme/vault/icon/colorpalette.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/day.png",
+            "path": "journeymap/icon/theme/vault/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/delete.png",
+            "path": "journeymap/icon/theme/vault/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/disable.png",
+            "path": "journeymap/icon/theme/vault/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1139,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/follow.png",
+            "path": "journeymap/icon/theme/vault/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/grid.png",
+            "path": "journeymap/icon/theme/vault/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/keys.png",
+            "path": "journeymap/icon/theme/vault/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1194,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/layers.png",
+            "path": "journeymap/icon/theme/vault/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 1116,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/monsters.png",
+            "path": "journeymap/icon/theme/vault/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 902,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/night.png",
+            "path": "journeymap/icon/theme/vault/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 569,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/options.png",
+            "path": "journeymap/icon/theme/vault/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 727,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/pets.png",
+            "path": "journeymap/icon/theme/vault/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 1369,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/players.png",
+            "path": "journeymap/icon/theme/vault/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/reset.png",
+            "path": "journeymap/icon/theme/vault/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 831,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/savemap.png",
+            "path": "journeymap/icon/theme/vault/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/search.png",
+            "path": "journeymap/icon/theme/vault/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/server.png",
+            "path": "journeymap/icon/theme/vault/icon/server.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/topo.png",
+            "path": "journeymap/icon/theme/vault/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1272,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/villagers.png",
+            "path": "journeymap/icon/theme/vault/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 620,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/waypoints.png",
+            "path": "journeymap/icon/theme/vault/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1155,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/zoomin.png",
+            "path": "journeymap/icon/theme/vault/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/icon/zoomout.png",
+            "path": "journeymap/icon/theme/vault/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_bottom.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 18970,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_bottomleft.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 10832,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_bottomright.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 289,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_compass_point.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_left.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 224,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_right.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_top.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 10437,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_topleft.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 10851,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/flat_topright.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/vault/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "vault.theme2.json",
+          "name": "vault.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 6007,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/vault.theme2.json",
+            "path": "journeymap/icon/theme/vault/vault.theme2.json"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "unkown.png",
+          "name": "unkown.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/unkown.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/unkown.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/vault/_flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_button_disabled.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_button_hover.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_button_off.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_button_on.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_toggle_disabled.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_toggle_hover.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_toggle_off.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/control/flat_toggle_on.png",
+            "path": "journeymap/icon/theme/vault/_flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/about.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1244,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/actions.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 818,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/alert.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 978,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/animals.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 1598,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/automap.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/biome.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/browser.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/caves.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1021,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/close.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/close.png"
+          }
+        },
+        {
+          "id": "colorpalette.png",
+          "name": "colorpalette.png",
+          "type": "File",
+          "artifact": {
+            "size": 1174,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/colorpalette.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/colorpalette.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/day.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/delete.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/disable.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1139,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/follow.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/grid.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/keys.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1194,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/layers.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 1116,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/monsters.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 902,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/night.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 569,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/options.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 727,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/pets.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 1369,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/players.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/reset.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 831,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/savemap.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/search.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/server.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/server.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/topo.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1272,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/villagers.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 620,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/waypoints.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1155,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/zoomin.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/icon/zoomout.png",
+            "path": "journeymap/icon/theme/vault/_flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_bottom.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 18970,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_bottomleft.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 10832,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_bottomright.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 289,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_compass_point.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_left.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 224,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_right.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_top.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 10437,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_topleft.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 10851,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/flat_topright.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/vault/_flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "vault.theme2.json",
+          "name": "vault.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 6203,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/vault.theme2.json",
+            "path": "journeymap/icon/theme/vault/_flat/vault.theme2.json"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/vault_flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/vault_flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/vault_flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "unkown.png",
+          "name": "unkown.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/unkown.png",
+            "path": "journeymap/icon/theme/vault_flat/container/unkown.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/vault_flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/vault_flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 1189,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/vault_flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_button_disabled.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_button_hover.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_button_off.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_button_on.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_toggle_disabled.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_toggle_hover.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_toggle_off.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/control/flat_toggle_on.png",
+            "path": "journeymap/icon/theme/vault_flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/about.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1244,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/actions.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 818,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/alert.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 978,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/animals.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 1598,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/automap.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/biome.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/browser.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/caves.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1021,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/close.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/close.png"
+          }
+        },
+        {
+          "id": "colorpalette.png",
+          "name": "colorpalette.png",
+          "type": "File",
+          "artifact": {
+            "size": 1174,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/colorpalette.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/colorpalette.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/day.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/delete.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/disable.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1139,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/follow.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/grid.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/keys.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1194,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/layers.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 1116,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/monsters.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 902,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/night.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 569,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/options.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 727,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/pets.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 1369,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/players.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/reset.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 831,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/savemap.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/search.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/server.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/server.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/topo.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1272,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/villagers.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 620,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/waypoints.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1155,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/zoomin.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/icon/zoomout.png",
+            "path": "journeymap/icon/theme/vault_flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 214,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_bottom.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 18970,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_bottomleft.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 10832,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_bottomright.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 289,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_compass_point.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_left.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 224,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_right.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_top.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 10437,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_topleft.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 10851,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/flat_topright.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/vault_flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "vault.theme2.json",
+          "name": "vault.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 6203,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/vault.theme2.json",
+            "path": "journeymap/icon/theme/vault_flat/vault.theme2.json"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 793,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/victorian_/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 814,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/victorian_/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 275,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/victorian_/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 806,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/victorian_/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 802,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/victorian_/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/victorian_/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "button_disabled.png",
+          "name": "button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 2642,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/button_disabled.png",
+            "path": "journeymap/icon/theme/victorian_/control/button_disabled.png"
+          }
+        },
+        {
+          "id": "button_hover.png",
+          "name": "button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 3912,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/button_hover.png",
+            "path": "journeymap/icon/theme/victorian_/control/button_hover.png"
+          }
+        },
+        {
+          "id": "button_off.png",
+          "name": "button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 3178,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/button_off.png",
+            "path": "journeymap/icon/theme/victorian_/control/button_off.png"
+          }
+        },
+        {
+          "id": "button_on.png",
+          "name": "button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 3912,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/button_on.png",
+            "path": "journeymap/icon/theme/victorian_/control/button_on.png"
+          }
+        },
+        {
+          "id": "toggle_disabled.png",
+          "name": "toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 3527,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/toggle_disabled.png",
+            "path": "journeymap/icon/theme/victorian_/control/toggle_disabled.png"
+          }
+        },
+        {
+          "id": "toggle_hover.png",
+          "name": "toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 5290,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/toggle_hover.png",
+            "path": "journeymap/icon/theme/victorian_/control/toggle_hover.png"
+          }
+        },
+        {
+          "id": "toggle_off.png",
+          "name": "toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 5290,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/toggle_off.png",
+            "path": "journeymap/icon/theme/victorian_/control/toggle_off.png"
+          }
+        },
+        {
+          "id": "toggle_on.png",
+          "name": "toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 5959,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/control/toggle_on.png",
+            "path": "journeymap/icon/theme/victorian_/control/toggle_on.png"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/about.png",
+            "path": "journeymap/icon/theme/victorian_/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1244,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/actions.png",
+            "path": "journeymap/icon/theme/victorian_/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 818,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/alert.png",
+            "path": "journeymap/icon/theme/victorian_/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 978,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/animals.png",
+            "path": "journeymap/icon/theme/victorian_/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 1598,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/automap.png",
+            "path": "journeymap/icon/theme/victorian_/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/biome.png",
+            "path": "journeymap/icon/theme/victorian_/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/browser.png",
+            "path": "journeymap/icon/theme/victorian_/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/caves.png",
+            "path": "journeymap/icon/theme/victorian_/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1021,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/close.png",
+            "path": "journeymap/icon/theme/victorian_/icon/close.png"
+          }
+        },
+        {
+          "id": "colorpalette.png",
+          "name": "colorpalette.png",
+          "type": "File",
+          "artifact": {
+            "size": 1174,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/colorpalette.png",
+            "path": "journeymap/icon/theme/victorian_/icon/colorpalette.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/day.png",
+            "path": "journeymap/icon/theme/victorian_/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/delete.png",
+            "path": "journeymap/icon/theme/victorian_/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/disable.png",
+            "path": "journeymap/icon/theme/victorian_/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1139,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/follow.png",
+            "path": "journeymap/icon/theme/victorian_/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/grid.png",
+            "path": "journeymap/icon/theme/victorian_/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 444,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/keys.png",
+            "path": "journeymap/icon/theme/victorian_/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1194,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/layers.png",
+            "path": "journeymap/icon/theme/victorian_/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 1116,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/monsters.png",
+            "path": "journeymap/icon/theme/victorian_/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 902,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/night.png",
+            "path": "journeymap/icon/theme/victorian_/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 569,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/options.png",
+            "path": "journeymap/icon/theme/victorian_/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 727,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/pets.png",
+            "path": "journeymap/icon/theme/victorian_/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 1369,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/players.png",
+            "path": "journeymap/icon/theme/victorian_/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/reset.png",
+            "path": "journeymap/icon/theme/victorian_/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 831,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/savemap.png",
+            "path": "journeymap/icon/theme/victorian_/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/search.png",
+            "path": "journeymap/icon/theme/victorian_/icon/search.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1316,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/topo.png",
+            "path": "journeymap/icon/theme/victorian_/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1272,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/villagers.png",
+            "path": "journeymap/icon/theme/victorian_/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 620,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/waypoints.png",
+            "path": "journeymap/icon/theme/victorian_/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1155,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/zoomin.png",
+            "path": "journeymap/icon/theme/victorian_/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/icon/zoomout.png",
+            "path": "journeymap/icon/theme/victorian_/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "compass_point.png",
+          "name": "compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 1382,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/circle/compass_point.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/circle/compass_point.png"
+          }
+        },
+        {
+          "id": "mask_256.png",
+          "name": "mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 2067,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/circle/mask_256.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/circle/mask_256.png"
+          }
+        },
+        {
+          "id": "mask_512.png",
+          "name": "mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 10622,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/circle/mask_512.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/circle/mask_512.png"
+          }
+        },
+        {
+          "id": "rim_256.png",
+          "name": "rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 16722,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/circle/rim_256.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/circle/rim_256.png"
+          }
+        },
+        {
+          "id": "rim_512.png",
+          "name": "rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 39120,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/circle/rim_512.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/circle/rim_512.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 176,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "pur_bottomleft.png",
+          "name": "pur_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 227,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_bottomleft.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_bottomleft.png"
+          }
+        },
+        {
+          "id": "pur_bottomright.png",
+          "name": "pur_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 235,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_bottomright.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_bottomright.png"
+          }
+        },
+        {
+          "id": "pur_left.png",
+          "name": "pur_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_left.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_left.png"
+          }
+        },
+        {
+          "id": "pur_right.png",
+          "name": "pur_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 175,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_right.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_right.png"
+          }
+        },
+        {
+          "id": "pur_top.png",
+          "name": "pur_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_top.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_top.png"
+          }
+        },
+        {
+          "id": "pur_topleft.png",
+          "name": "pur_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_topleft.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_topleft.png"
+          }
+        },
+        {
+          "id": "pur_topright.png",
+          "name": "pur_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 241,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/pur_topright.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/pur_topright.png"
+          }
+        },
+        {
+          "id": "vic_bottom.png",
+          "name": "vic_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_bottom.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_bottom.png"
+          }
+        },
+        {
+          "id": "vic_bottomleft.png",
+          "name": "vic_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 547,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_bottomleft.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_bottomleft.png"
+          }
+        },
+        {
+          "id": "vic_bottomright.png",
+          "name": "vic_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 526,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_bottomright.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_bottomright.png"
+          }
+        },
+        {
+          "id": "vic_compass_point.png",
+          "name": "vic_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_compass_point.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_compass_point.png"
+          }
+        },
+        {
+          "id": "vic_left.png",
+          "name": "vic_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 170,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_left.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_left.png"
+          }
+        },
+        {
+          "id": "vic_right.png",
+          "name": "vic_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_right.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_right.png"
+          }
+        },
+        {
+          "id": "vic_top.png",
+          "name": "vic_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 175,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_top.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_top.png"
+          }
+        },
+        {
+          "id": "vic_topleft.png",
+          "name": "vic_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 554,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_topleft.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_topleft.png"
+          }
+        },
+        {
+          "id": "vic_topright.png",
+          "name": "vic_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 518,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/minimap/square/vic_topright.png",
+            "path": "journeymap/icon/theme/victorian_/minimap/square/vic_topright.png"
+          }
+        },
+        {
+          "id": "victorian_.theme2.json",
+          "name": "victorian_.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8728,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/victorian_.theme2.json",
+            "path": "journeymap/icon/theme/victorian_/victorian_.theme2.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5747,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "BetterHangulFont.zip",
+          "name": "BetterHangulFont.zip",
+          "type": "File",
+          "artifact": {
+            "size": 80065,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/resourcepacks/BetterHangulFont.zip",
+            "MD5": "7e53a307e7c7a9f12c7ed189ad416112",
+            "path": "resourcepacks/BetterHangulFont.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 8438,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/servers.dat",
+            "MD5": "f2cfe6e29ec65112b30aaa53a24f2e93",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip.txt",
+          "name": "ComplementaryUnbound_r5.5.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 177,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.zip",
+          "name": "ComplementaryUnbound_r5.6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500393,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/shaderpacks/ComplementaryUnbound_r5.6.zip",
+            "MD5": "308fe42e792eaa2dc0974b9ffbb61777",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.7.1.zip",
+          "name": "ComplementaryUnbound_r5.7.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 522973,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+            "MD5": "b535d194c7115b360860e226c65ae3f2",
+            "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

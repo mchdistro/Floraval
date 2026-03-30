@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/Floraval/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "<LINK TO RSS FEED>",
+    "discord": {
+      "clientId": "1377349949351788706",
+      "smallImageText": "플로라밸",
+      "smallImageKey": "floraval_logo"
+    }
+  }
+}
