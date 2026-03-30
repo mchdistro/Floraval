@@ -1,7 +1,7 @@
 {
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/Floraval/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "155bebdf9988c9bf2ef0eb54644cd431",
     "discord": {
       "clientId": "1377349949351788706",
       "smallImageText": "플로라밸",
