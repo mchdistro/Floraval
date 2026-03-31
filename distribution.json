@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "Floraval-1.21.8",
-      "name": "Floraval (Minecraft 1.21.8)",
+      "name": "플로리밸",
       "description": "Minecraft 1.21.8 (Fabric v0.18.4)",
       "icon": "https://github.com/mchdistro/Floraval/raw/main/server-icon.png",
       "version": "1.0.0",
@@ -17,8 +17,8 @@
       "minecraftVersion": "1.21.8",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "largeImageText": "플로리밸",
+        "largeImageKey": "floraval_logo"
       },
       "mainServer": true,
       "autoconnect": true,
@@ -4039,9 +4039,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 8438,
+            "size": 16924,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/servers.dat",
-            "MD5": "f2cfe6e29ec65112b30aaa53a24f2e93",
+            "MD5": "ee660b85f19fcdf045ff849bf9ccfdd9",
             "path": "servers.dat"
           }
         },

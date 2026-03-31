@@ -2,14 +2,14 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/Floraval/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Floraval (Minecraft 1.21.8)",
+    "name": "플로리밸",
     "description": "Minecraft 1.21.8 (Fabric v0.18.4)",
     "icon": "https://github.com/mchdistro/Floraval/raw/main/server-icon.png",
     "address": "222.236.94.107:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "largeImageText": "플로리밸",
+      "largeImageKey": "floraval_logo"
     },
     "mainServer": true,
     "autoconnect": true,
