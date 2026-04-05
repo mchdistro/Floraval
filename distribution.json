@@ -411,6 +411,16 @@
           }
         },
         {
+          "id": "net.darkhax.pricklemc.fabric.impl:prickle:21.8.2@jar",
+          "name": "PrickleMC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 87228,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/prickle-fabric-1.21.8-21.8.2.jar",
+            "MD5": "c9ae9aa2b0c37b8027794489c3efee2c"
+          }
+        },
+        {
           "id": "generated.fabricmod:reeses-sodium-options:1.8.4+mc1.21.6@jar",
           "name": "Reese's Sodium Options",
           "type": "FabricMod",
