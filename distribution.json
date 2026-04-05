@@ -141,6 +141,16 @@
           }
         },
         {
+          "id": "net.darkhax.attributefix.fabric.impl:attributefix:21.8.2@jar",
+          "name": "AttributeFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21870,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/attributefix-fabric-1.21.8-21.8.2.jar",
+            "MD5": "ccd6df1425cbadccb61ecd406e0f4166"
+          }
+        },
+        {
           "id": "me.shedaniel.autoconfig.example:cloth-config:19.0.147@jar",
           "name": "Cloth Config v19",
           "type": "FabricMod",
