@@ -151,6 +151,16 @@
           }
         },
         {
+          "id": "kr.yongpyo.BSItemTooltip:bsitemtooltip:1.0.0@jar",
+          "name": "BSItemTooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5252,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/BSItemTooltip-1.0.0-dev.jar",
+            "MD5": "9e2593be9a5c04c387f65ba428cabf9a"
+          }
+        },
+        {
           "id": "me.shedaniel.autoconfig.example:cloth-config:19.0.147@jar",
           "name": "Cloth Config v19",
           "type": "FabricMod",
