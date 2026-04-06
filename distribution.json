@@ -155,9 +155,9 @@
           "name": "BSItemTooltip",
           "type": "FabricMod",
           "artifact": {
-            "size": 5252,
-            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/BSItemTooltip-1.0.0-dev.jar",
-            "MD5": "9e2593be9a5c04c387f65ba428cabf9a"
+            "size": 5699,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/fabricmods/required/BSItemTooltip-1.0.0.jar",
+            "MD5": "d49b942c9cbf5f31fb9f98906021812a"
           }
         },
         {
@@ -623,9 +623,9 @@
           "name": "fastquit.toml",
           "type": "File",
           "artifact": {
-            "size": 99,
+            "size": 102,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/fastquit.toml",
-            "MD5": "2d8bc43d918888947c3c9a4fbccc5c47",
+            "MD5": "23d2fa716adae2e9bd3ba93172006031",
             "path": "config/yosbr/config/fastquit.toml"
           }
         },
@@ -700,9 +700,9 @@
           "name": "moreculling.toml",
           "type": "File",
           "artifact": {
-            "size": 553,
+            "size": 576,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/config/yosbr/config/moreculling.toml",
-            "MD5": "48b79a9e43db43ae2b104e4f3f6b9628",
+            "MD5": "6ddd51ee9bc20d2bf2f2d20f11f22deb",
             "path": "config/yosbr/config/moreculling.toml"
           }
         },
@@ -788,7 +788,7 @@
           "name": "journeymap.core.config",
           "type": "File",
           "artifact": {
-            "size": 2687,
+            "size": 2774,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.core.config",
             "path": "journeymap/config/6.0/journeymap.core.config"
           }
@@ -798,7 +798,7 @@
           "name": "journeymap.fullmap.config",
           "type": "File",
           "artifact": {
-            "size": 1303,
+            "size": 1347,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.fullmap.config",
             "path": "journeymap/config/6.0/journeymap.fullmap.config"
           }
@@ -808,7 +808,7 @@
           "name": "journeymap.minimap.config",
           "type": "File",
           "artifact": {
-            "size": 2298,
+            "size": 2374,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.minimap.config",
             "path": "journeymap/config/6.0/journeymap.minimap.config"
           }
@@ -818,7 +818,7 @@
           "name": "journeymap.minimap2.config",
           "type": "File",
           "artifact": {
-            "size": 2317,
+            "size": 2393,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.minimap2.config",
             "path": "journeymap/config/6.0/journeymap.minimap2.config"
           }
@@ -828,7 +828,7 @@
           "name": "journeymap.rendering.config",
           "type": "File",
           "artifact": {
-            "size": 671,
+            "size": 687,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.rendering.config",
             "path": "journeymap/config/6.0/journeymap.rendering.config"
           }
@@ -838,7 +838,7 @@
           "name": "journeymap.topo.config",
           "type": "File",
           "artifact": {
-            "size": 971,
+            "size": 978,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.topo.config",
             "path": "journeymap/config/6.0/journeymap.topo.config"
           }
@@ -848,7 +848,7 @@
           "name": "journeymap.waypoint.config",
           "type": "File",
           "artifact": {
-            "size": 1304,
+            "size": 1344,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.waypoint.config",
             "path": "journeymap/config/6.0/journeymap.waypoint.config"
           }
@@ -858,7 +858,7 @@
           "name": "journeymap.webmap.config",
           "type": "File",
           "artifact": {
-            "size": 162,
+            "size": 166,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/config/6.0/journeymap.webmap.config",
             "path": "journeymap/config/6.0/journeymap.webmap.config"
           }
@@ -868,7 +868,7 @@
           "name": "default.theme.config",
           "type": "File",
           "artifact": {
-            "size": 69,
+            "size": 73,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/default.theme.config",
             "path": "journeymap/icon/theme/default.theme.config"
           }
@@ -1018,7 +1018,7 @@
           "name": "DesertTemple.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8925,
+            "size": 9351,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
             "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
           }
@@ -1028,7 +1028,7 @@
           "name": "EndCity.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8920,
+            "size": 9346,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/EndCity.theme2.json",
             "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
           }
@@ -1038,7 +1038,7 @@
           "name": "ForestMansion.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8926,
+            "size": 9352,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
             "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
           }
@@ -1638,7 +1638,7 @@
           "name": "NetherFortress.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8927,
+            "size": 9353,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
             "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
           }
@@ -1648,7 +1648,7 @@
           "name": "OceanMonument.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8926,
+            "size": 9352,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
             "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
           }
@@ -1658,7 +1658,7 @@
           "name": "Purist.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8909,
+            "size": 9335,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/Purist.theme2.json",
             "path": "journeymap/icon/theme/flat/Purist.theme2.json"
           }
@@ -1668,7 +1668,7 @@
           "name": "Stronghold.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8923,
+            "size": 9349,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
             "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
           }
@@ -2228,7 +2228,7 @@
           "name": "vault.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 6007,
+            "size": 6307,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/vault.theme2.json",
             "path": "journeymap/icon/theme/vault/vault.theme2.json"
           }
@@ -2798,7 +2798,7 @@
           "name": "vault.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 6203,
+            "size": 6509,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault/_flat/vault.theme2.json",
             "path": "journeymap/icon/theme/vault/_flat/vault.theme2.json"
           }
@@ -3368,7 +3368,7 @@
           "name": "vault.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 6203,
+            "size": 6509,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/vault_flat/vault.theme2.json",
             "path": "journeymap/icon/theme/vault_flat/vault.theme2.json"
           }
@@ -4038,7 +4038,7 @@
           "name": "victorian_.theme2.json",
           "type": "File",
           "artifact": {
-            "size": 8728,
+            "size": 9149,
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/Floraval-1.21.8/files/journeymap/icon/theme/victorian_/victorian_.theme2.json",
             "path": "journeymap/icon/theme/victorian_/victorian_.theme2.json"
           }
