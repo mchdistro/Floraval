@@ -52,7 +52,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","continuity:glass_pane_culling_fix","file/BetterHangulFont.zip"]
+resourcePacks:["vanilla","fabric","file/BetterHangulFont.zip","continuity:default"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ko_kr
@@ -152,7 +152,7 @@ key_key.journeymap.fullscreen.north:key.keyboard.up
 key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
-key_key.journeymap.fullscreen_follow_player:key.keyboard.f
+key_key.journeymap.fullscreen_follow_player:key.keyboard.unknown
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_key.journeymap.toggle_entity_names:key.keyboard.g
 key_key.modmenu.open_menu:key.keyboard.unknown
