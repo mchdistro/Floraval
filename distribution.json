@@ -221,6 +221,16 @@
           }
         },
         {
+          "id": "io.github.kosmx.emotes:emotecraft:3.0.0-b.build.139@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1158852,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/fabricmods/required/emotecraft-fabric-for-MC1.21.7-3.0.0-b.build.139.jar",
+            "MD5": "2ccc3dd6c41e1a6ffc60fb412f2a58aa"
+          }
+        },
+        {
           "id": "dev.tr7zw:entityculling:1.9.3@jar",
           "name": "EntityCulling",
           "type": "FabricMod",
@@ -781,6 +791,215 @@
             "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/config/yosbr/options.txt",
             "MD5": "634df3e36d5f88f618700a5da9238624",
             "path": "config/yosbr/options.txt"
+          }
+        },
+        {
+          "id": "devinsit.emotecraft",
+          "name": "devinsit.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 88957,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/devinsit.emotecraft",
+            "MD5": "b480774433211459e98521dd83dbd197",
+            "path": "emotes/devinsit.emotecraft"
+          }
+        },
+        {
+          "id": "devinsleep1.emotecraft",
+          "name": "devinsleep1.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 15545,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/devinsleep1.emotecraft",
+            "MD5": "56f3b56bb67f688ad705a9fa53c8056f",
+            "path": "emotes/devinsleep1.emotecraft"
+          }
+        },
+        {
+          "id": "devinsleep2.emotecraft",
+          "name": "devinsleep2.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 22517,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/devinsleep2.emotecraft",
+            "MD5": "eb3bbaec0022ec014dbc3e66659d82db",
+            "path": "emotes/devinsleep2.emotecraft"
+          }
+        },
+        {
+          "id": "devinsleep3.emotecraft",
+          "name": "devinsleep3.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 23425,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/devinsleep3.emotecraft",
+            "MD5": "3e9cdeabb5ae21e95827d7d47a0a6704",
+            "path": "emotes/devinsleep3.emotecraft"
+          }
+        },
+        {
+          "id": "exum shuffle.emotecraft",
+          "name": "exum shuffle.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 34277,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/exum%20shuffle.emotecraft",
+            "MD5": "efcd02d004b8dd52e872476e7232de01",
+            "path": "emotes/exum shuffle.emotecraft"
+          }
+        },
+        {
+          "id": "Hug.emotecraft",
+          "name": "Hug.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 505,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Hug.emotecraft",
+            "MD5": "83f6674eb4f414971d9fda3729f6114a",
+            "path": "emotes/Hug.emotecraft"
+          }
+        },
+        {
+          "id": "kazotsky kick.emotecraft",
+          "name": "kazotsky kick.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 29424,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/kazotsky%20kick.emotecraft",
+            "MD5": "7cbbb6fc34809dae7462444eec3b670d",
+            "path": "emotes/kazotsky kick.emotecraft"
+          }
+        },
+        {
+          "id": "Kneeling.emotecraft",
+          "name": "Kneeling.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 16286,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Kneeling.emotecraft",
+            "MD5": "943d7c6e539ea522d1865ad307ca68ef",
+            "path": "emotes/Kneeling.emotecraft"
+          }
+        },
+        {
+          "id": "Kratos Falling.emotecraft",
+          "name": "Kratos Falling.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 1481,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Kratos%20Falling.emotecraft",
+            "MD5": "7f4a4cbeb9ea1fe607d90eda80a65bbd",
+            "path": "emotes/Kratos Falling.emotecraft"
+          }
+        },
+        {
+          "id": "Melon.emotecraft",
+          "name": "Melon.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 949,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Melon.emotecraft",
+            "MD5": "531856b44a1c4499cc892fc61e3617b2",
+            "path": "emotes/Melon.emotecraft"
+          }
+        },
+        {
+          "id": "naruto run.emotecraft",
+          "name": "naruto run.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 34972,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/naruto%20run.emotecraft",
+            "MD5": "3b0d67386463aa2f486b9252bec9c966",
+            "path": "emotes/naruto run.emotecraft"
+          }
+        },
+        {
+          "id": "Omni-Man THINK!.emotecraft",
+          "name": "Omni-Man THINK!.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 27099,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Omni-Man%20THINK!.emotecraft",
+            "MD5": "d1a810846e564670fcbc484536bba04e",
+            "path": "emotes/Omni-Man THINK!.emotecraft"
+          }
+        },
+        {
+          "id": "OmniMan Sit Permanent.emotecraft",
+          "name": "OmniMan Sit Permanent.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 731,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/OmniMan%20Sit%20Permanent.emotecraft",
+            "MD5": "ae2798ddbe33e1c49e2d4454ad4e3152",
+            "path": "emotes/OmniMan Sit Permanent.emotecraft"
+          }
+        },
+        {
+          "id": "Orange Justice.emotecraft",
+          "name": "Orange Justice.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 143924,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Orange%20Justice.emotecraft",
+            "MD5": "28dfc62b3597b69ad8f91754672acf0e",
+            "path": "emotes/Orange Justice.emotecraft"
+          }
+        },
+        {
+          "id": "Praise the sun.emotecraft",
+          "name": "Praise the sun.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 621,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Praise%20the%20sun.emotecraft",
+            "MD5": "6383e629b6304bc412bebe8271dda24d",
+            "path": "emotes/Praise the sun.emotecraft"
+          }
+        },
+        {
+          "id": "Sobbing.emotecraft",
+          "name": "Sobbing.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 59495,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Sobbing.emotecraft",
+            "MD5": "88545d5859016a269f57b317d13bca0c",
+            "path": "emotes/Sobbing.emotecraft"
+          }
+        },
+        {
+          "id": "Twerk.emotecraft",
+          "name": "Twerk.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 66990,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Twerk.emotecraft",
+            "MD5": "6fe49e96064632094875cd980e84558c",
+            "path": "emotes/Twerk.emotecraft"
+          }
+        },
+        {
+          "id": "Worth the Wait Dance (full ver).emotecraft",
+          "name": "Worth the Wait Dance (full ver).emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 65467,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Worth%20the%20Wait%20Dance%20(full%20ver).emotecraft",
+            "MD5": "e2308d669578b707f6e705881591d062",
+            "path": "emotes/Worth the Wait Dance (full ver).emotecraft"
+          }
+        },
+        {
+          "id": "Zero Two Wiggle.emotecraft",
+          "name": "Zero Two Wiggle.emotecraft",
+          "type": "File",
+          "artifact": {
+            "size": 994295,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/files/emotes/Zero%20Two%20Wiggle.emotecraft",
+            "MD5": "03f2c7f020e096c25866e065291b5d9c",
+            "path": "emotes/Zero Two Wiggle.emotecraft"
           }
         },
         {
