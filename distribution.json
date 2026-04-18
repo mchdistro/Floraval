@@ -421,6 +421,16 @@
           }
         },
         {
+          "id": "com.zigythebird.playeranim:player_animation_library:1.1.2+mc.1.21.8@jar",
+          "name": "Player Animation Library",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1149351,
+            "url": "https://github.com/mchdistro/Floraval/raw/main/servers/v1-1.21.8/fabricmods/required/PlayerAnimationLibFabric-1.1.2+mc.1.21.8.jar",
+            "MD5": "3a281adf2405b230c2fe45c1d25c9511"
+          }
+        },
+        {
           "id": "eu.ha3:presencefootsteps:1.11.2+1.21.7@jar",
           "name": "Presence Footsteps",
           "type": "FabricMod",
